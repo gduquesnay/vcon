@@ -5,5 +5,6 @@ from distutils.core import setup
 setup(name='vcon',
       version='1.0',
       description='Vcon',
-      packages=['vcon']
+      packages=['vcon'],
+      install_requires=['python-jose', 'cryptography', 'hsslms', 'vcon']
      )
