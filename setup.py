@@ -4,6 +4,6 @@ from distutils.core import setup
 
 setup(name='vcon',
       version='1.0',
-      description='Vcon'
+      description='Vcon',
       packages=['vcon']
      )
